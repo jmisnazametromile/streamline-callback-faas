@@ -1,0 +1,9 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: localhost:8585
+functions:
+  streamline-callback:
+    lang: node12
+    handler: ./streamline-callback
+    image: ebsadmin/streamline-callback:latest

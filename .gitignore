@@ -1,0 +1,7 @@
+template
+build
+
+# Project exclude paths
+/streamline-callback/node_modules/
+/streamline-callback/api.js
+/streamline-callback/handler.js
